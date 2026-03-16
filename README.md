@@ -1,6 +1,6 @@
 ## Eric Grynspan &nbsp;·&nbsp; Data Engineer
 
-**Financial Services & Healthcare**
+**Data Engineer | Financial Services & Healthcare | Python · SQL · Airflow · AWS | Regulated Data Systems**
 
 8+ years building production data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Core focus: audit-ready, regulated data systems — validated by automated testing, governed end-to-end, and built to production standard.
 
