@@ -13,9 +13,9 @@
 
 | | |
 |:--|:--|
-| **Pipelines** | 5 production Airflow DAGs — stocks, SEC EDGAR 10-K, FRED macro, crypto, weather |
+| **Pipelines** | 4 production Airflow DAGs — stocks, SEC EDGAR 10-K, FRED macro, analysis |
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
-| **Quality** | 163 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
+| **Quality** | 213 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
 
 ---
