@@ -8,8 +8,7 @@
 
 ### Featured Project &nbsp;·&nbsp; [The AI Builder Premium](https://github.com/ericg1212/data-engineering-portfolio)
 
-> Proved a **+92.0% Sharpe ratio premium** for proprietary AI builders over third-party integrators<br>
-> (Spearman ρ = +0.800) across 10 major tech stocks — surfaced in an interactive Power BI dashboard.
+> Proved a **+92.0% Sharpe ratio premium** for proprietary AI builders over third-party integrators<br> (Spearman ρ = +0.800) across 10 major tech stocks — surfaced in an interactive Power BI dashboard.
 
 | | |
 |:--|:--|
