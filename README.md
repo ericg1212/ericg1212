@@ -8,14 +8,14 @@
 
 ### Featured Project &nbsp;·&nbsp; [The AI Builder Premium](https://github.com/ericg1212/data-engineering-portfolio)
 
-> Proved a **+111.5% Sharpe ratio premium** for proprietary AI builders over third-party integrators<br>
+> Proved a **+92.0% Sharpe ratio premium** for proprietary AI builders over third-party integrators<br>
 > (Spearman ρ = +0.800) across 10 major tech stocks — surfaced in an interactive Power BI dashboard.
 
 | | |
 |:--|:--|
 | **Pipelines** | 4 production Airflow DAGs — stocks, SEC EDGAR 10-K, FRED macro, analysis |
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
-| **Quality** | 213 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
+| **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
 
 ---
