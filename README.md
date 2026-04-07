@@ -2,13 +2,13 @@
 
 **Data Engineer | Financial Services & Healthcare | Python · SQL · Airflow · AWS | Regulated Data Systems**
 
-8+ years building production data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Core focus: audit-ready, regulated data systems — validated by automated testing, governed end-to-end, and built to production standard.
+8+ years building data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Specialized in regulated, audit-ready systems — automated testing, end-to-end governance, compliance-grade by design.
 
 ---
 
 ### Featured Project &nbsp;·&nbsp; [The AI Builder Premium](https://github.com/ericg1212/data-engineering-portfolio)
 
-> Measured a +92.0% Sharpe ratio premium for proprietary AI builders over third-party integrators (Spearman ρ = +0.800) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
+> Proprietary AI builders generate a +92.0% Sharpe ratio premium over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
 
 | | |
 |:--|:--|
