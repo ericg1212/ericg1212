@@ -1,14 +1,14 @@
 ## Eric Grynspan · Data Engineer
 
-**Data Engineer | Financial Services & Healthcare | Python · SQL · Snowflake · dbt · Airflow · AWS | Regulated Data Systems**
+**Data Engineer | Regulated Digital Health & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS | Regulated Data Systems**
 
-8+ years building production data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Specialized in regulated, audit-ready systems — automated testing, end-to-end governance, compliance-grade by design.
+8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in digital health, fintech, and financial services.
 
 ---
 
 ### Projects
 
-#### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/data-engineering-portfolio)
+#### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
 > Proprietary AI builders generate a **+92.0% Sharpe ratio premium** over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
 
@@ -54,4 +54,4 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-data--engineering-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/data-engineering-portfolio)
+[![Portfolio](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
