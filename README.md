@@ -1,12 +1,14 @@
-## Eric Grynspan &nbsp;·&nbsp; Data Engineer
+## Eric Grynspan · Data Engineer
 
-**Data Engineer | Financial Services & Healthcare | Python · SQL · Airflow · AWS | Regulated Data Systems**
+**Data Engineer | Financial Services & Healthcare | Python · SQL · Snowflake · dbt · Airflow · AWS | Regulated Data Systems**
 
-8+ years building data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Specialized in regulated, audit-ready systems — automated testing, end-to-end governance, compliance-grade by design.
+8+ years building production data pipelines and cloud infrastructure across financial services, healthcare, and enterprise technology. Specialized in regulated, audit-ready systems — automated testing, end-to-end governance, compliance-grade by design.
 
 ---
 
-### Featured Project &nbsp;·&nbsp; [The AI Builder Premium](https://github.com/ericg1212/data-engineering-portfolio)
+### Projects
+
+#### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/data-engineering-portfolio)
 
 > Proprietary AI builders generate a **+92.0% Sharpe ratio premium** over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
 
@@ -17,13 +19,26 @@
 | **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
 
+#### Healthcare Claims Intelligence Pipeline *(launching Apr 2026)*
+
+> FHIR R4 → Python → Snowflake → dbt — segmenting 257K denied claims across 3 CARC queues + T2D/CKD real-world evidence cohort analysis.
+
+| | |
+|:--|:--|
+| **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
+| **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
+| **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
+
 ---
 
 ### Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Dagster](https://img.shields.io/badge/Dagster-4F4FE6?style=flat-square&logo=dagster&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
