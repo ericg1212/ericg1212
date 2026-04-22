@@ -1,6 +1,6 @@
 ## Eric Grynspan · Data Engineer
 
-**Data Engineer | Regulated Digital Health & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS | Regulated Data Systems**
+**Data Engineer | Regulated Digital Health & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS · HIPAA**
 
 8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in digital health, fintech, and financial services.
 
@@ -54,4 +54,4 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
+[![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
