@@ -1,8 +1,8 @@
 ## Eric Grynspan · Data Engineer
 
-**Data Engineer | Regulated Digital Health & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS · HIPAA**
+**Data Engineer | Fintech & Regulated Digital Health | Python · SQL · Snowflake · dbt · Airflow · AWS · HIPAA**
 
-8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in digital health, fintech, and financial services.
+8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in fintech, capital markets, and regulated digital health.
 
 ---
 
