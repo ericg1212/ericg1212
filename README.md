@@ -19,7 +19,7 @@
 | **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
 
-#### Healthcare Claims Intelligence Pipeline
+#### [Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
 > FHIR R4 → Python → Snowflake → dbt — segmenting 257K denied claims across 3 CARC queues + T2D/CKD real-world evidence cohort analysis.
 
@@ -55,3 +55,5 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
 [![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
+&nbsp;
+[![Healthcare Claims Pipeline](https://img.shields.io/badge/Healthcare%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
