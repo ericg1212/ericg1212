@@ -19,7 +19,7 @@
 | **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
 
-#### [Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
+#### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
 > FHIR R4 → Python → Snowflake → dbt — segmenting 257K denied claims across 3 CARC queues + T2D/CKD real-world evidence cohort analysis.
 
