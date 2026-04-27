@@ -21,7 +21,7 @@
 
 #### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
-> FHIR R4 → Python → Snowflake → dbt — segmenting 257K denied claims across 3 CARC queues + T2D/CKD real-world evidence cohort analysis.
+> Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — and the remediation path differs fundamentally for each.
 
 | | |
 |:--|:--|
