@@ -2,7 +2,7 @@
 
 Data Engineer | Fintech & Healthcare | Python · SQL · Snowflake · dbt · Airflow · AWS · Terraform · FHIR
 
-8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in fintech, capital markets, and regulated digital health.
+8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in fintech, capital markets, and healthcare.
 
 ---
 
