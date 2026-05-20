@@ -8,6 +8,16 @@ Data Engineer | Fintech & Healthcare | Python · SQL · Snowflake · dbt · Airf
 
 ### Projects
 
+#### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
+
+> Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — and the remediation path differs fundamentally for each.
+
+| | |
+|:--|:--|
+| **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
+| **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
+| **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
+
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
 > Proprietary AI builders generate a **+92.0% Sharpe ratio premium** over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
@@ -18,16 +28,6 @@ Data Engineer | Fintech & Healthcare | Python · SQL · Snowflake · dbt · Airf
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
 | **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
 | **IaC** | End-to-end Terraform |
-
-#### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
-
-> Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — and the remediation path differs fundamentally for each.
-
-| | |
-|:--|:--|
-| **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
-| **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
-| **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
 ---
 
