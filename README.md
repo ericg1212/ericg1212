@@ -1,8 +1,30 @@
-## Eric Grynspan · Data Engineer
+<div align="center">
 
-Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS · Terraform · FHIR
+## Eric Grynspan &nbsp;·&nbsp; Data Engineer
 
-8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in healthcare, fintech, and capital markets.
+**Healthcare &amp; Financial Services &nbsp;|&nbsp; New York, NY**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-ericg1212.github.io-24292e?style=flat-square&logo=github&logoColor=white)](https://ericg1212.github.io)
+
+</div>
+
+---
+
+8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing in healthcare and financial services. Current focus: revenue cycle management, FHIR R4 claims analytics, and AI enrichment layers with structured validation governance.
+
+---
+
+### Portfolio Arc
+
+> P2 classifies denials retrospectively &nbsp;→&nbsp; P3 adds AI governance &nbsp;→&nbsp; P4 prevents denials in real time
+
+| | Project | Domain | Status |
+|:---:|:--------|:-------|:------:|
+| **P2** | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
+| **P3** | [**Trust but Verify:** AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | 🔨 Building |
+| **P4** | **Cleared:** Real-Time Prior Authorization Prevention Pipeline | Streaming · Denial Prevention | 📋 Planned |
 
 ---
 
@@ -15,16 +37,16 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 | | |
 |:--|:--|
 | **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
-| **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
+| **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 83 tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
 #### [Trust but Verify: AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline)
 
-> Dual-validation AI governance layer — Claude enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason) — no black-box outputs.
+> Dual-validation AI governance — LLM enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason). No black-box outputs.
 
 | | |
 |:--|:--|
-| **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · Claude API · Pydantic |
+| **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · LLM API · Pydantic |
 | **Scale** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
 | **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
 
@@ -36,8 +58,7 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 |:--|:--|
 | **Pipelines** | 4 production Airflow DAGs — stocks, SEC EDGAR 10-K, FRED macro, analysis |
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
-| **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD |
-| **IaC** | End-to-end Terraform |
+| **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD · Terraform IaC |
 
 ---
 
@@ -57,15 +78,3 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-
----
-
-### Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
-&nbsp;
-[![Healthcare Claims Pipeline](https://img.shields.io/badge/Healthcare%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
-&nbsp;
-[![AI Clinical Pipeline](https://img.shields.io/badge/AI%20Clinical%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/ai-healthcare-pipeline)
-&nbsp;
-[![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
