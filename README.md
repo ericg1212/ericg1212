@@ -1,16 +1,16 @@
 ## Eric Grynspan · Data Engineer
 
-Data Engineer | Fintech & Healthcare | Python · SQL · Snowflake · dbt · Airflow · AWS · Terraform · FHIR
+Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airflow · AWS · Terraform · FHIR
 
-8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in fintech, capital markets, and healthcare.
+8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing — in healthcare, fintech, and capital markets.
 
 ---
 
 ### Projects
 
-#### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
+#### [Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
-> Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — and the remediation path differs fundamentally for each.
+> Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — where the remediation path differs fundamentally for each.
 
 | | |
 |:--|:--|
@@ -54,6 +54,6 @@ Data Engineer | Fintech & Healthcare | Python · SQL · Snowflake · dbt · Airf
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
-[![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
-&nbsp;
 [![Healthcare Claims Pipeline](https://img.shields.io/badge/Healthcare%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
+&nbsp;
+[![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
