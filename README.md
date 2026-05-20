@@ -8,7 +8,7 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 
 ### Projects
 
-#### [Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
+#### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
 > Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — where the remediation path differs fundamentally for each.
 
@@ -18,7 +18,7 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 | **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
-#### [AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline)
+#### [Trust but Verify: AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline)
 
 > Dual-validation AI governance layer — Claude enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason) — no black-box outputs.
 
