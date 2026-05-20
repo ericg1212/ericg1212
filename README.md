@@ -2,7 +2,7 @@
 
 ## Eric Grynspan &nbsp;·&nbsp; Data Engineer
 
-**Healthcare &amp; Financial Services &nbsp;|&nbsp; New York, NY**
+**Healthcare AI &amp; Fintech &nbsp;|&nbsp; New York, NY**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
