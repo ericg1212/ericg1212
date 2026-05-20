@@ -18,6 +18,16 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 | **Scale** | 495K total claims · 51.9% denial rate · 12 dbt models · 83 automated tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
+#### [AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline)
+
+> Dual-validation AI governance layer — Claude enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason) — no black-box outputs.
+
+| | |
+|:--|:--|
+| **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · Claude API · Pydantic |
+| **Scale** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
+| **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
+
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
 > Proprietary AI builders generate a **+92.0% Sharpe ratio premium** over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
@@ -55,5 +65,7 @@ Data Engineer | Healthcare & Fintech | Python · SQL · Snowflake · dbt · Airf
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
 &nbsp;
 [![Healthcare Claims Pipeline](https://img.shields.io/badge/Healthcare%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
+&nbsp;
+[![AI Clinical Pipeline](https://img.shields.io/badge/AI%20Clinical%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/ai-healthcare-pipeline)
 &nbsp;
 [![Sharpe Premium Pipeline](https://img.shields.io/badge/Sharpe%20Premium%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
