@@ -23,7 +23,7 @@
 | | Project | Domain | Status |
 |:---:|:--------|:-------|:------:|
 | **P2** | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
-| **P3** | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | 🔨 Building |
+| **P3** | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | ✅ Live |
 | **P4** | **Cleared:** Real-Time Prior Authorization Prevention Pipeline | Streaming · Denial Prevention | 📋 Planned |
 
 ---
