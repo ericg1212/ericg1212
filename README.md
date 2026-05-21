@@ -23,7 +23,7 @@
 | | Project | Domain | Status |
 |:---:|:--------|:-------|:------:|
 | **P2** | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
-| **P3** | [**Trust but Verify:** AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | 🔨 Building |
+| **P3** | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | 🔨 Building |
 | **P4** | **Cleared:** Real-Time Prior Authorization Prevention Pipeline | Streaming · Denial Prevention | 📋 Planned |
 
 ---
@@ -40,7 +40,7 @@
 | **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 83 tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
-#### [Trust but Verify: AI Clinical Documentation Intelligence Pipeline](https://github.com/ericg1212/ai-healthcare-pipeline)
+#### [Trust but Verify: Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline)
 
 > Dual-validation AI governance — LLM enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason). No black-box outputs.
 
@@ -78,3 +78,13 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+---
+
+### Connect
+
+[![Healthcare Claims Pipeline](https://img.shields.io/badge/Denied%3A%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
+&nbsp;
+[![Clinical AI Governance Engine](https://img.shields.io/badge/Trust%20but%20Verify%3A%20AI%20Governance-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/ai-healthcare-pipeline)
+&nbsp;
+[![Sharpe Premium Pipeline](https://img.shields.io/badge/AI%20Builder%20Premium-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
