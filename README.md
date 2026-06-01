@@ -12,7 +12,7 @@
 
 ---
 
-8+ years delivering data systems across regulated environments — production pipelines, cloud-native architecture, and compliance-grade testing in healthcare and financial services. Current focus: revenue cycle management, FHIR R4 claims analytics, and AI enrichment layers with structured validation governance.
+Data engineer building healthcare AI and fintech data infrastructure — auditable AI governance pipelines, clinical RCM analytics, and quantitative financial research. Cloud-native on AWS and Snowflake.
 
 ---
 
