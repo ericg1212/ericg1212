@@ -16,11 +16,11 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 
 ---
 
-### Portfolio Arc
+### Pipeline Arc
 
 > Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
 
-| Project | Domain | Status |
+| Pipeline | Domain | Status |
 |:--------|:-------|:------:|
 | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
 | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | ✅ Live |
@@ -28,7 +28,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 
 ---
 
-### Projects
+### Pipelines
 
 #### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
