@@ -16,7 +16,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 
 ---
 
-### Pipeline Arc
+### Portfolio Arc
 
 > Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
 
