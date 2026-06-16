@@ -24,7 +24,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 |:--------|:-------|:------:|
 | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
 | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | ✅ Live |
-| **Cleared:** Real-Time Prior Authorization Prevention Pipeline | Streaming · Denial Prevention | 📋 Planned |
+| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | Streaming · Denial Prevention | ✅ Live — Layer 1 |
 
 ---
 
@@ -50,6 +50,16 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 | **Scale** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
 | **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
 
+#### [Cleared: Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline)
+
+> Intercepts claims before submission instead of analyzing denials after the fact — a deterministic NCCI gate plus Claude API tool-use prevent the two largest denial root causes at the source.
+
+| | |
+|:--|:--|
+| **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
+| **Layer 1 (live)** | Real CMS 2024 provider-utilization distributions · sub-ms NCCI PTP/MUE gate · ~85% of claims never touch the LLM |
+| **Design** | Partition key = payer_id for per-payer ordering · 10% holdout arm stamped at the source for provable lift |
+
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
 > Proprietary AI builders generate a **+92.0% Sharpe ratio premium** over third-party integrators (Spearman ρ = +0.800, p ≈ 0.005) across 10 major tech stocks — visualized in an interactive Power BI dashboard.
@@ -69,6 +79,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Dagster](https://img.shields.io/badge/Dagster-4F4FE6?style=flat-square&logo=dagster&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -86,5 +97,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 [![Healthcare Claims Pipeline](https://img.shields.io/badge/Denied%3A%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
 &nbsp;
 [![Clinical AI Governance Engine](https://img.shields.io/badge/Trust%20but%20Verify%3A%20AI%20Governance-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/ai-healthcare-pipeline)
+&nbsp;
+[![Agentic RCM Prevention Pipeline](https://img.shields.io/badge/Cleared%3A%20RCM%20Prevention-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/agentic-rcm-pipeline)
 &nbsp;
 [![Sharpe Premium Pipeline](https://img.shields.io/badge/AI%20Builder%20Premium-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
