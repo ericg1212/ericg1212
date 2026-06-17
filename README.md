@@ -24,7 +24,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 |:--------|:-------|:------:|
 | [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
 | [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | ✅ Live |
-| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | Streaming · Denial Prevention | ✅ Live — Layer 1 |
+| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | Streaming · Denial Prevention | ✅ Live — Layers 1–2 |
 
 ---
 
@@ -58,6 +58,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
 | **Layer 1 (live)** | Real CMS 2024 provider-utilization distributions · sub-ms NCCI PTP/MUE gate · ~85% of claims never touch the LLM |
+| **Layer 2 (live)** | Claude API tool-use scorer · NCCI/LCD policy retrieval · CARC enum enforced at schema boundary · noise injection eval proves LLM lift |
 | **Design** | Partition key = payer_id for per-payer ordering · 10% holdout arm stamped at the source for provable lift |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
