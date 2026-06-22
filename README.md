@@ -12,7 +12,7 @@
 
 ---
 
-Data engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, Claude API tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
+Data Engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, Claude API tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
 
 ---
 
