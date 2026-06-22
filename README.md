@@ -12,7 +12,7 @@
 
 ---
 
-Data engineer building healthcare AI and fintech data infrastructure — auditable AI governance pipelines, clinical RCM analytics, and quantitative financial research. Cloud-native on AWS and Snowflake.
+Data engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, Claude API tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
 
 ---
 
