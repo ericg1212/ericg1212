@@ -57,10 +57,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 | | |
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
-| **Ingestion** | Real CMS 2024 distributions · sub-ms NCCI PTP/MUE gate · ~85% cleared without LLM · 10% holdout arm stamped at source |
-| **Intelligence** | Claude API tool-use scorer · CARC enum enforced at schema boundary · noise injection eval proves LLM lift |
-| **Action** | 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · immutable audit log · single-lever kill-switch |
-| **Feedback** | Adjudication outcome consumer · holdout lift calculator · drift monitor (>20% → kill-switch) · Streamlit dashboard |
+| **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · 10% holdout arm · drift monitor (>20% → kill-switch) |
 | **Quality** | 85 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
