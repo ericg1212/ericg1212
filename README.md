@@ -20,11 +20,11 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 
 > Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
 
-| Pipeline | Domain | Status |
-|:--------|:-------|:------:|
-| [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE | ✅ Live |
-| [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance | ✅ Live |
-| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | Streaming · Denial Prevention | ✅ Live |
+| Pipeline | Domain |
+|:--------|:-------|
+| [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE |
+| [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance |
+| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | RCM · Pre-Submission |
 
 ---
 
