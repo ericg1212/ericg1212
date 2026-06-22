@@ -47,8 +47,8 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 | | |
 |:--|:--|
 | **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · LLM API · Pydantic |
-| **Scale** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
 | **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
+| **Data** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
 
 #### [Cleared: Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline)
 
@@ -57,8 +57,8 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 | | |
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
-| **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · 10% holdout arm · drift monitor (>20% → kill-switch) |
-| **Quality** | 85 tests · CI green |
+| **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · 85 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
@@ -66,7 +66,7 @@ Data engineer building healthcare AI and fintech data infrastructure — auditab
 
 | | |
 |:--|:--|
-| **Pipelines** | 4 production Airflow DAGs — stocks, SEC EDGAR 10-K, FRED macro, analysis |
+| **Stack** | Airflow · S3 · Glue · Athena · Power BI · Terraform · GitHub Actions |
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
 | **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD · Terraform IaC |
 
