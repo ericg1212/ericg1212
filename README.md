@@ -5,8 +5,6 @@
 **Healthcare AI &amp; Fintech &nbsp;|&nbsp; New York, NY**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-ericg1212.github.io-24292e?style=flat-square&logo=github&logoColor=white)](https://ericg1212.github.io)
 
 </div>
 
@@ -15,8 +13,6 @@
 Data Engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, Claude API tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
 
 ---
-
-### Portfolio Arc
 
 > Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
 
