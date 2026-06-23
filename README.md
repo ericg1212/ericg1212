@@ -5,6 +5,8 @@
 **Healthcare AI &amp; Fintech &nbsp;|&nbsp; New York, NY**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-ericg1212.github.io-3b82f6?style=flat-square&logo=githubpages&logoColor=white)](https://ericg1212.github.io)
 
 </div>
 
@@ -54,7 +56,7 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
 | **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
-| **Proof** | 10% holdout control arm · provable intervention vs. control lift · 85 tests · CI green |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.003/claim · 50,000× ROI · 115 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
