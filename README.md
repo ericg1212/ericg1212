@@ -5,8 +5,6 @@
 **Healthcare AI &amp; Fintech &nbsp;|&nbsp; New York, NY**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ericgrynspan/)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-ericg1212.github.io-3b82f6?style=flat-square&logo=githubpages&logoColor=white)](https://ericg1212.github.io)
 
 </div>
 
