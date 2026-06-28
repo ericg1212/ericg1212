@@ -24,8 +24,6 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 
 ---
 
-### Pipelines
-
 #### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
 > Classifies 257K denied claims by root cause — systematic denials vs. documentation failures — where the remediation path differs fundamentally for each.
@@ -87,8 +85,6 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 ---
-
-### Connect
 
 [![Healthcare Claims Pipeline](https://img.shields.io/badge/Denied%3A%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
 &nbsp;
