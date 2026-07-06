@@ -10,19 +10,11 @@
 
 ---
 
-Data Engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, Claude API tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
+Data Engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, LLM tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
 
 ---
 
 > Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
-
-| Pipeline | Domain |
-|:--------|:-------|
-| [**Denied:** Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline) | RCM · RWE |
-| [**Trust but Verify:** Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline) | AI Governance |
-| [**Cleared:** Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline) | RCM · Pre-Submission |
-
----
 
 #### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
@@ -46,13 +38,13 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 
 #### [Cleared: Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline)
 
-> Intercepts claims before submission instead of analyzing denials after the fact — a deterministic NCCI gate plus Claude API tool-use prevent the two largest denial root causes at the source.
+> Intercepts claims before submission instead of analyzing denials after the fact — a deterministic NCCI gate plus LLM tool-use prevent the two largest denial root causes at the source.
 
 | | |
 |:--|:--|
-| **Stack** | Apache Kafka (KRaft) · Claude API tool-use · Snowflake · dbt · Python |
+| **Stack** | Apache Kafka (KRaft) · LLM tool-use · Snowflake · dbt · Python |
 | **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
-| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.003/claim · 50,000× ROI · 216 tests · CI green |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.003/claim · 50,000× ROI · 251 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
@@ -83,13 +75,3 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-
----
-
-[![Healthcare Claims Pipeline](https://img.shields.io/badge/Denied%3A%20Claims%20Pipeline-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/healthcare-claims-pipeline)
-&nbsp;
-[![Clinical AI Governance Engine](https://img.shields.io/badge/Trust%20but%20Verify%3A%20AI%20Governance-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/ai-healthcare-pipeline)
-&nbsp;
-[![Agentic RCM Prevention Pipeline](https://img.shields.io/badge/Cleared%3A%20RCM%20Prevention-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/agentic-rcm-pipeline)
-&nbsp;
-[![Sharpe Premium Pipeline](https://img.shields.io/badge/AI%20Builder%20Premium-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ericg1212/sharpe-premium-pipeline)
