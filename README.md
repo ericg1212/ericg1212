@@ -44,7 +44,7 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · LLM tool-use · Snowflake · dbt · Python |
 | **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
-| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.003/claim · 50,000× ROI · 272 tests · CI green |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · ~12,600× ROI · 272 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
