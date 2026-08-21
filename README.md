@@ -22,7 +22,7 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 
 | | |
 |:--|:--|
-| **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
+| **Stack** | Synthea FHIR R4 · Python · Snowflake Medallion (RAW → STAGING → MART) · dbt · Dagster |
 | **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 83 tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
@@ -43,8 +43,8 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 | | |
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · LLM tool-use · Snowflake · dbt · Python |
-| **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
-| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · ~12,600× ROI · 284 tests · CI green |
+| **Design** | NCCI gate (~85% cleared without LLM) · prior-auth pre-check (CMS-0057-F, gold-carding bypass, versioned payer-rule graph) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · 12,500× ROI · 284 tests · GitHub Actions CI · CodeQL scanned |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
@@ -54,7 +54,7 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 |:--|:--|
 | **Stack** | Airflow · S3 · Glue · Athena · Power BI · Terraform · GitHub Actions |
 | **Storage** | Hive-partitioned S3 data lake · Parquet/Snappy · Glue catalog · serverless Athena |
-| **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD · Terraform IaC |
+| **Quality** | 184 pytest unit tests · moto AWS mocking · GitHub Actions CI/CD · CodeQL static analysis · Terraform IaC |
 
 ---
 
