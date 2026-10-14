@@ -2,7 +2,7 @@
 
 ## Eric Grynspan &nbsp;·&nbsp; Data Engineer
 
-**Healthcare AI &amp; Fintech &nbsp;|&nbsp; New York, NY**
+**Healthcare &amp; Fintech &nbsp;|&nbsp; New York, NY**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eric%20Grynspan-0A66C2?style=flat-square)](https://www.linkedin.com/in/ericgrynspan/)
 
@@ -10,7 +10,7 @@
 
 ---
 
-Data Engineer who **builds pipelines that find and recover money, and proves the numbers hold**. Healthcare: claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; denial root-cause classification across 257K claims; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
+Data Engineer who **builds audit-ready pipelines that find and recover money, and proves the numbers hold**. Healthcare: claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; denial root-cause classification across 257K claims; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
 
 ---
 
