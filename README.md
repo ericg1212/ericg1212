@@ -10,7 +10,7 @@
 
 ---
 
-Data Engineer building real-time RCM denial prevention and auditable AI governance pipelines for healthcare — Kafka streaming, LLM tool-use, FHIR R4, Snowflake. Fintech: quantitative financial research and alpha signal pipelines on AWS.
+Data Engineer who **builds pipelines that find and recover money, and proves the numbers hold**. Healthcare: claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; denial root-cause classification across 257K claims; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
 
 ---
 
@@ -44,7 +44,7 @@ Data Engineer building real-time RCM denial prevention and auditable AI governan
 |:--|:--|
 | **Stack** | Apache Kafka (KRaft) · LLM tool-use · Snowflake · dbt · Python |
 | **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
-| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · 12,500× ROI · 284 tests · CI green |
+| **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · ~12,600× ROI · 284 tests · CI green |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
