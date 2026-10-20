@@ -10,7 +10,7 @@
 
 ---
 
-Data engineer building audit-ready pipelines for healthcare and finance: **deterministic controls for payment integrity, with errors intercepted upstream and every figure traceable to a test**. **Denied** separates systematic denials from documentation failures across 257K claims (modeled $1.2M+ recoverable). **Cleared** stops denials pre-submission: a rules-based NCCI gate resolves ~85% of claims before any LLM call, at $0.0119 each, against a 10% holdout. **Trust but Verify** dual-validates AI-enriched records so every routing decision is explainable. Snowflake · dbt · Dagster · Kafka · Airflow · AWS.
+Data Engineer building audit-ready pipelines for healthcare and finance: **deterministic controls for payment integrity, with errors intercepted upstream and every figure traceable to a test**. **Denied** separates systematic denials from documentation failures across 257K claims (modeled $1.2M+ recoverable). **Cleared** stops denials pre-submission: a rules-based NCCI gate resolves ~85% of claims before any LLM call, at $0.0119 each, against a 10% holdout. **Trust but Verify** dual-validates AI-enriched records so every routing decision is explainable. Snowflake · dbt · Dagster · Kafka · Airflow · AWS.
 
 ---
 
