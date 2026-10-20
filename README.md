@@ -10,11 +10,11 @@
 
 ---
 
-Data Engineer building **audit-ready pipelines that find and recover money, and prove the numbers hold**. In healthcare, I classify 257K denied claims into systematic and documentation failures (modeled $1.2M+ recoverable), and prevent denials before submission: a deterministic coding-rules gate clears ~85% of claims before any LLM call, scored live at $0.0119 per claim and measured against a 10% holdout control arm. AI-enriched records pass dual validation, so every routing decision is explainable and logged. In fintech, I built a serverless AWS research pipeline over SEC filings, market prices, and macro data (+92% Sharpe premium on a 10-stock sample). Every project ships with automated tests and green CI.
+Data Engineer building audit-ready pipelines for healthcare payment integrity and financial data: systems that **find and recover money, and prove the numbers hold**. **Denied** classifies 257K denied claims into systematic vs. documentation failures (modeled $1.2M+ recoverable). **Cleared** prevents denials upstream: an NCCI coding-rules gate resolves ~85% of claims before any LLM call, at $0.0119 per claim, with a 10% holdout arm that proves lift. **Trust but Verify** routes AI-enriched records through LLM-as-Judge and rules validation, so every decision is explainable. Snowflake, dbt, Dagster, Kafka, Airflow, AWS; every project tested, CI green.
 
 ---
 
-> Denied classifies denials retrospectively &nbsp;→&nbsp; Trust but Verify adds AI governance &nbsp;→&nbsp; Cleared prevents denials in real time
+> Denied classifies denials retrospectively &nbsp;→&nbsp; Cleared prevents them in real time &nbsp;→&nbsp; Trust but Verify governs the AI that touches the records
 
 #### [Denied: Healthcare Claims Intelligence Pipeline](https://github.com/ericg1212/healthcare-claims-pipeline)
 
@@ -26,16 +26,6 @@ Data Engineer building **audit-ready pipelines that find and recover money, and 
 | **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 73 tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
-#### [Trust but Verify: Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline)
-
-> Dual-validation AI governance — LLM enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason). No black-box outputs.
-
-| | |
-|:--|:--|
-| **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · LLM API · Pydantic |
-| **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
-| **Data** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
-
 #### [Cleared: Agentic RCM Prevention Pipeline](https://github.com/ericg1212/agentic-rcm-pipeline)
 
 > Intercepts claims before submission instead of analyzing denials after the fact — a deterministic NCCI gate plus LLM tool-use prevent the two largest denial root causes at the source.
@@ -45,6 +35,16 @@ Data Engineer building **audit-ready pipelines that find and recover money, and 
 | **Stack** | Apache Kafka (KRaft) · LLM tool-use · Snowflake · dbt · Python |
 | **Design** | NCCI gate (~85% cleared without LLM) · 3-condition auto-correct gate (confidence ≥ 0.92 + charge ≤ $500) · drift monitor (>20% → kill-switch) |
 | **Proof** | 10% holdout control arm · provable intervention vs. control lift · $0.0119/claim live-validated · ~12,600× ROI · 284 tests · CI green |
+
+#### [Trust but Verify: Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline)
+
+> Dual-validation AI governance — LLM enrichment cross-validated by a deterministic rules engine. Every record routes to Gold (trusted) or Review (explainable reason). No black-box outputs.
+
+| | |
+|:--|:--|
+| **Stack** | FHIR R4 · Python · Snowflake · dbt · Dagster · LLM API · Pydantic |
+| **Design** | LLM-as-Judge blind audit · prompt caching · confidence threshold routing |
+| **Data** | 226 patients · 25,958 clinical records · 6 enrichment categories · 6 rules engine domains |
 
 #### [AI Builder Premium — Sharpe Ratio Analysis](https://github.com/ericg1212/sharpe-premium-pipeline)
 
