@@ -10,7 +10,7 @@
 
 ---
 
-Data Engineer who **builds audit-ready pipelines that find and recover money, and proves the numbers hold**. Healthcare: claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; denial root-cause classification across 257K claims; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
+Data Engineer who **builds audit-ready pipelines that find and recover money, and proves the numbers hold**. Healthcare: root-cause classification of 257K denied claims into systematic and documentation failures (modeled $1.2M+ recoverable, 73 dbt tests); claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
 
 ---
 
@@ -23,7 +23,7 @@ Data Engineer who **builds audit-ready pipelines that find and recover money, an
 | | |
 |:--|:--|
 | **Stack** | Synthea FHIR R4 · Python · Snowflake (RAW → staging → mart) · dbt · Dagster |
-| **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 83 tests |
+| **Scale** | 495K total claims · 51.9% denial rate · $1.2M+ recoverable · 12 dbt models · 73 tests |
 | **RWE** | T2D/CKD cohort · 104 patients · 54.8% metformin utilization |
 
 #### [Trust but Verify: Clinical AI Governance Engine](https://github.com/ericg1212/ai-healthcare-pipeline)
