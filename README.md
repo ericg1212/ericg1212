@@ -10,7 +10,7 @@
 
 ---
 
-Data Engineer who **builds audit-ready pipelines that find and recover money, and proves the numbers hold**. Healthcare: root-cause classification of 257K denied claims into systematic and documentation failures (modeled $1.2M+ recoverable, 73 dbt tests); claim-denial prevention scored live at $0.0119 per claim, with a 10% holdout control arm that makes the lift provable; auditable AI governance. Fintech: an AWS research pipeline over SEC 10-K capex, market prices, and macro data that found a +92% Sharpe ratio premium for companies that build their own AI. Every project ships with tests and green CI.
+Data Engineer building **audit-ready pipelines that find and recover money, and prove the numbers hold**. In healthcare, I classify 257K denied claims into systematic and documentation failures (modeled $1.2M+ recoverable), and prevent denials before submission: a deterministic coding-rules gate clears ~85% of claims before any LLM call, scored live at $0.0119 per claim and measured against a 10% holdout control arm. AI-enriched records pass dual validation, so every routing decision is explainable and logged. In fintech, I built a serverless AWS research pipeline over SEC filings, market prices, and macro data (+92% Sharpe premium on a 10-stock sample). Every project ships with automated tests and green CI.
 
 ---
 
